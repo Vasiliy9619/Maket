@@ -1,12 +1,16 @@
+.Cap {
+    position: relative;
+    left: 5%;
+}
+
+
+
 h2 {
     /*Aeezah.*/
     position: absolute;
-    width: 136px;
-    height: 57px;
-    left: 122px;
-    right: 919px;
-    top: 32px;
-    bottom: -32px;
+    left: 10%;
+    top: 3%;
+    /*bottom: -32px;+/
     /*Шрифт*/
     color: rgb(35, 34, 41);
     font-family: Goldman, sans-serif;
@@ -16,111 +20,67 @@ h2 {
     letter-spacing: 0;
     text-align: left;
 }
-/*
+
 .Buttons {
     position: absolute;
-    width: 539px;
-    height: 28px;
-    left: 459.5px;
-    right: 178.5px;
-    top: 48px;
-    bottom: -19px;
-}*/
-
-/*.ButtonM {
-    /* NEW ARRIVALS */
-    /*position: absolute;
-    width: 123px;
-    height: 20px;
-    left: 459.5px;
-    right: -43.5px;
-    top: 56px;
-    bottom: -48px;
-    /*Шрифт*/
-    /*color: rgb(0, 0, 0);
-    font-family: Gilroy, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1px;
-    letter-spacing: normal;
-    text-align: center;
+    left: 30%;
+    top: 40px;
 }
 
-.Button1, Button2, Button3, Button4 {
+.ButtonM {
+    /* NEW ARRIVALS */
+
+    /*Шрифт*/
     color: rgb(0, 0, 0);
     font-family: Gilroy, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 1px;
     letter-spacing: normal;
     text-align: center;
+    cursor: pointer;
+
 }
 
-.Button1{
-    /* SHOP */
-   /* position: absolute;
-    width: 44px;
-    height: 19px;
-    left: 629px;
-    right: -134px;
-    top: 56px;
-    bottom: -47px;
+.ButtonM, .Button1, .Button2, .Button3, .Button4 {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 10px;
 }
 
-.Button2{
-    /* BEAUTY */
-   /* position: absolute;
-    width: 60px;
-    height: 19px;
-    left: 725.5px;
-    right: -246.5px;
-    top: 56px;
-    bottom: -47px;
-}
-
-.Button3{
-    /* SALE */
-    /*position: absolute;
-    width: 38px;
-    height: 19px;
-    left: 836.5px;
-    right: -335.5px;
-    top: 56px;
-    bottom: -47px;
-}
-
-.Button4{
-    /* JOURNAL */
-    /*position: absolute;
-    width: 74px;
-    height: 19px;
-    left: 924.5px;
-    right: -459.5px;
-    top: 56px;
-    bottom: -47px;
+.ProfileB {
+    position: absolute;
+    left: 110%;
+    top: -5%;
+    border: none;
+    background: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 
 .Panel{
     /* Group 188 */
-   /* position: absolute;
-    width: 80px;
-    height: 40px;
-    left: 1176px;
-    right: -1133px;
+    position: absolute;
+    left: 75%;
     top: 41px;
-    bottom: -41px;
+    width: 70px;
+    border: none;
     box-sizing: border-box;
-    border: 1px solid rgb(35, 34, 41);
-
+    background: white;
+    cursor: pointer;
 }
 
-.Basket{
-    /* Vector 11 */
-    /*position: absolute;
-    width: 38px;
-    height: 0;
-    left: 1220px;
-    top: 42px;
-    transform: rotate(90.00deg);
-    border: 1px solid rgb(35, 34, 41);
+p {
+    /* 0 */
+    display: contents;
+    color: rgb(35, 34, 41);
+    font-family: Gilroy,sans-serif;
+    font-size: 22px;
+    font-weight: 600;
 }
